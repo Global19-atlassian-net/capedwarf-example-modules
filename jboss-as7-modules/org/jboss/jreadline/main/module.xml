@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jreadline-0.17.jar"/>
+        <resource-root path="jreadline-0.20.jar"/>
         <!-- Insert resources here -->
     </resources>
 

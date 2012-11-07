@@ -30,7 +30,7 @@
     <resources>
         <resource-root path="jboss-as-web-7.2.0.Alpha1-SNAPSHOT.jar"/>
         <resource-root path="jasper-jdt-7.0.3.Final.jar"/>
-        <resource-root path="jbossweb-7.0.16.Final.jar"/>
+        <resource-root path="jbossweb-7.2.0.Alpha2.jar"/>
         <!-- Insert resources here -->
     </resources>
 

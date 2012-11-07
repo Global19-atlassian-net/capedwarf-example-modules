@@ -41,6 +41,7 @@
         <resource-root path="capedwarf-memcache-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-oauth-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-prospectivesearch-1.0.0-SNAPSHOT.jar"/>
+        <resource-root path="capedwarf-quota-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-search-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-tasks-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-urlfetch-1.0.0-SNAPSHOT.jar"/>
@@ -48,6 +49,9 @@
         <resource-root path="capedwarf-xmpp-1.0.0-SNAPSHOT.jar"/>
         <!-- Insert resources here -->
     </resources>
+
+    <!--  This runs bytecode manipulation of Google API jar -->
+    <main-class name="org.jboss.capedwarf.bytecode.CapedwarfTransformerMojo"/>
 
     <dependencies>
         <module name="javax.api"/>
@@ -76,6 +80,8 @@
         <module name="org.picketlink"/>
         <module name="org.picketlink.social"/>
         <module name="com.google.appengine"/>
+        <module name="com.google.guava"/>
         <module name="org.datanucleus" optional="true"/>
+        <module name="org.jboss.maven.plugins.transformer" optional="true"/>
     </dependencies>
 </module>
