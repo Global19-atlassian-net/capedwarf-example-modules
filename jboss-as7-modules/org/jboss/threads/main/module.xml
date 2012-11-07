@@ -23,6 +23,11 @@
   -->
 
 <module xmlns="urn:jboss:module:1.1" name="org.jboss.threads">
+
+   <properties>
+       <property name="jboss.api" value="private"/>
+   </properties>
+
     <resources>
         <resource-root path="jboss-threads-2.0.0.GA.jar"/>
         <!-- Insert resources here -->

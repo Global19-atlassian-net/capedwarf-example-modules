@@ -22,11 +22,12 @@
   -->
 <module xmlns="urn:jboss:module:1.1" name="org.infinispan">
     <resources>
-        <resource-root path="infinispan-core-5.2.0.ALPHA2.jar"/>
+        <resource-root path="infinispan-core-5.2.0.Beta3.jar"/>
         <!-- Insert resources here -->
     </resources>
 
     <dependencies>
+        <module name="sun.jdk"/>
         <module name="javax.api"/>
         <module name="javax.transaction.api"/>
         <module name="javax.xml.bind.api"/>

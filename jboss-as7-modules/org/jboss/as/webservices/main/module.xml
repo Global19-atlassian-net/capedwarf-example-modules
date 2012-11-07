@@ -29,7 +29,7 @@
 
     <resources>
         <resource-root path="jboss-as-webservices-server-integration-7.2.0.Alpha1-SNAPSHOT.jar"/>
-        <resource-root path="jbossws-cxf-resources-4.1.0.Beta1-jboss711.jar"/>
+        <resource-root path="jbossws-cxf-resources-4.1.0.Final-jboss711.jar"/>
         <!-- Insert resources here -->
     </resources>
 
