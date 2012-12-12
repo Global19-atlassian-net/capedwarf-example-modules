@@ -27,7 +27,6 @@
     <resources>
         <resource-root path="async-http-servlet-3.0-2.3.3.Final.jar"/>
         <resource-root path="resteasy-jaxrs-2.3.3.Final.jar"/>
-	<resource-root path="resteasy-jaxrs-2.3.3.Final-jandex.jar"/>
         <!-- Insert resources here -->
     </resources>
 

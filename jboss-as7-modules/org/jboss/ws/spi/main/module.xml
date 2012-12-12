@@ -29,7 +29,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jbossws-spi-2.1.0.Final.jar"/>
+        <resource-root path="jbossws-spi-2.1.1.Beta1.jar"/>
         <!-- Insert resources here -->
     </resources>
 
