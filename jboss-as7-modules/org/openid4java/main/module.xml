@@ -24,17 +24,18 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.openid4java">
   <resources>
-    <resource-root path="openid4java-consumer-0.9.5.jar"/>
-        <resource-root path="openid4java-nodeps-0.9.5.jar"/>
-        <resource-root path="commons-httpclient-3.0.1.jar"/>
+    <resource-root path="openid4java-nodeps-0.9.6.jar"/>
         <!-- Insert resources here -->
   </resources>
 
   <dependencies>
+      <module name="com.google.code.guice"/>
       <module name="javax.api"/>
       <module name="javax.servlet.api"/>
+      <module name="net.sourceforge.nekohtml"/>
       <module name="org.apache.commons.codec"/>
       <module name="org.apache.commons.logging"/>
+      <module name="org.apache.httpcomponents"/>
       <module name="org.apache.log4j"/>
   </dependencies>
 </module>
