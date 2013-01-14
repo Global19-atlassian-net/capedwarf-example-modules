@@ -22,7 +22,7 @@
   -->
 <module xmlns="urn:jboss:module:1.1" name="org.infinispan">
     <resources>
-        <resource-root path="infinispan-core-5.2.0.Beta5.jar"/>
+        <resource-root path="infinispan-core-5.2.0.CR1.jar"/>
         <!-- Insert resources here -->
     </resources>
 

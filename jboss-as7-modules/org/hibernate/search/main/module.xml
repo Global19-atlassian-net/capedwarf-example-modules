@@ -24,9 +24,9 @@
 
 <module xmlns="urn:jboss:module:1.0" name="org.hibernate.search">
     <resources>
-        <resource-root path="hibernate-search-engine-4.2.0.Beta2.jar"/>
-        <resource-root path="hibernate-search-infinispan-4.2.0.Beta2.jar"/>
-        <resource-root path="infinispan-lucene-directory-5.2.0.Beta5.jar"/>
+        <resource-root path="hibernate-search-engine-4.2.0.CR1.jar"/>
+        <resource-root path="hibernate-search-infinispan-4.2.0.CR1.jar"/>
+        <resource-root path="infinispan-lucene-directory-5.2.0.CR1.jar"/>
         <!-- Insert resources here -->
     </resources>
 

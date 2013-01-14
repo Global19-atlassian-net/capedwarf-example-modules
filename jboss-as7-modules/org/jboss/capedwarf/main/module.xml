@@ -26,6 +26,7 @@
     <resources>
         <resource-root path="capedwarf-admin-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-appidentity-1.0.0-SNAPSHOT.jar"/>
+        <resource-root path="capedwarf-aspects-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-blobstore-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-bytecode-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-capabilities-1.0.0-SNAPSHOT.jar"/>

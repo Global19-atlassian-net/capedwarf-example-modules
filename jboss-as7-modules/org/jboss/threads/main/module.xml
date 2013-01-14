@@ -29,7 +29,7 @@
    </properties>
 
     <resources>
-        <resource-root path="jboss-threads-2.0.0.GA.jar"/>
+        <resource-root path="jboss-threads-2.1.0.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
