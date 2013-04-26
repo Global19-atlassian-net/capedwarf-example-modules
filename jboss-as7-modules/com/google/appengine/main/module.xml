@@ -24,9 +24,10 @@
 
 <module xmlns="urn:jboss:module:1.0" name="com.google.appengine">
     <resources>
-        <resource-root path="appengine-api-1.0-sdk-1.7.4.jar">
+        <resource-root path="appengine-api-1.0-sdk-1.7.7.1.jar">
            <filter>
                <include path="com/google/**"/>
+               <include path="META-INF/**"/>
                <exclude path="**"/>
            </filter>
         </resource-root>
@@ -36,9 +37,12 @@
         <module name="javax.api"/>
         <module name="javax.activation.api"/>
         <module name="javax.mail.api"/>
-        <module name="org.jboss.capedwarf"/>
+        <module name="org.jboss.capedwarf" services="import"/>
         <!-- needed for annotations to work (@Transformable, @Indexed, ...) -->
         <module name="org.infinispan.query"/>
         <module name="org.hibernate.search"/>
+        <!-- used when creating proxies -->
+        <module name="org.javassist"/>
+        <module name="javax.servlet.api"/>
     </dependencies>
 </module>

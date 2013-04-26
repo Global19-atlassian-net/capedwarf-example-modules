@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-security-7.2.0.Alpha1-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-security-7.2.0.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -54,6 +54,7 @@
         <module name="org.jboss.security.negotiation"/>
         <module name="org.jboss.staxmapper"/>
         <module name="org.picketbox"/>
+        <module name="org.apache.commons.cli"/>
         <module name="sun.jdk"/>
     </dependencies>
 </module>

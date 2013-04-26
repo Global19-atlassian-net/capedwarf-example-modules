@@ -30,7 +30,7 @@
     <main-class name="org.jboss.as.appclient.subsystem.Main"/>
 
     <resources>
-        <resource-root path="jboss-as-appclient-7.2.0.Alpha1-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-appclient-7.2.0.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
